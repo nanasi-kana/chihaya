@@ -139,7 +139,7 @@ function DL()
 	//canvasをJPEG変換し、そのBase64文字列をhrefへセット
 	a.href = canvas.toDataURL('image/jpeg', 0.85);
 	//ダウンロード時のファイル名を指定
-	a.download = 'takanecom.jpg';
+	a.download = 'chihayacom.jpg';
 	//クリックイベントを発生させる
 	a.click();
 }
